@@ -22,3 +22,8 @@ resetbtn.addEventListener("click", function(){
     counter = 0
     target.innerHTML = "--"
 })
+
+document.addEventListener("bdlclick", function(event){
+    event.preventDefault();
+},
+{ passive: false})
