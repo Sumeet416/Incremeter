@@ -43,6 +43,10 @@ transition-duration: 0.5s;
     flex-direction: column;
 }
 
+#control{
+    cursor: pointer;
+}
+
 #container2 button{
     background-color: #007CFF4a;
     padding: 6px 10px;
